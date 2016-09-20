@@ -1,23 +1,3 @@
-# HW1 - Practice with Static Analysis
-### Chia-Hao Hsu (ch3141)
-
-In this HW, I used a course project as the test target to run the static analysis. </br>
-This project is the last project for CSEE 4119. I implemented the Distributed Bellman-Ford algorithm </br>
-and also run some test cases. I ran two analyzers: pychecker & prospector. 
-
-From the result of pychecker, </br>
-I surprisingly find out that there are several module not existed in my local system anymore.</br>
-For example, there are several ssl modules alreadu missing in the local system.</br>
-Also, some locale module I used are missing too. </br>
-Last but not the least, I didn't have a good habit to clean up the attribtes or variables in the code I didn't use anymore.</br>
-For instance, in beclient.py I didn't use kwargs anymore but I didn't clean it up.
-
-From the result of prospector, there are more same cases found in the program. For example, </br>
-I imported several unused modules like time & datetime but I have never used them again. </br>
-In prospector, I found that it will also check my complexity and give the corresponding warning.</br>
-This is the part surprising me, since it is the part I didn't notice before when I developed this kind of school project.</br>
-According to testing results, I will pay more attention on them in the future.
-
 ## Appendix 1: Result of pychecker
     Processing module Timer (Timer.py)...
     Processing module Utils (Utils.py)...

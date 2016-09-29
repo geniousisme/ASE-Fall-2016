@@ -1,6 +1,3 @@
-#ELEN E6770 Next Gen. Network - Final Project
-####Sun-Yi Lin (sl3833), Chia-Hao Hsu (ch3141)
-
 ##Unary - A simple efficient way to host events
 
 ![Home](http://i.imgur.com/GW0UTeB.png)
